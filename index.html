@@ -1,0 +1,417 @@
+<html>
+    <head>
+        <title>
+            Wync Music 
+        </title>
+        <style>
+            .a{
+                display: flex;
+                flex-direction: row;
+                padding: 10px;
+                align-items: center;
+                gap: 10px;
+                border-radius: 5px;
+                border-style: inset;
+                border-color: black;
+                border-inline-color: black;
+                font-family: Roboto,sans-serif;
+                font-weight: 400;
+            }
+            #a2{
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                
+            }
+            .b{
+                padding-right: 300px;
+            
+            }
+            .a1{
+                padding-left: 80px;
+            }
+            .h{
+                display: flex;
+                flex-direction: row;
+                padding: 15px;
+                align-items: center;
+                gap: 20px;
+                font-family: Roboto,sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+               
+            }
+            .i{
+                padding-left: 65px;
+            }
+            .j{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                font-family: Roboto,sans-serif;
+                font-weight: 400;
+                
+            }
+            .k{
+                padding-right: 620px;
+                padding-left: 75px;
+            }
+            .l{
+                display: flex;
+                flex-direction: row;
+                padding-top: 10px;
+                align-items: center;
+                gap: 200px;
+            }
+            .i1{
+                 width:  30px;
+                 height: 30px;
+                 gap: 10px;
+                 padding-left: 70px;
+            }
+            .i2{
+            width:  30px;
+            height: 30px;
+            }
+            .i3{
+                 width:  30px;
+                 height: 30px;
+            }
+            .i4{
+                 width:  30px;
+                 height: 30px;
+            }
+            .i41{
+                width:  30px;
+                 height: 30px;
+            }
+            .i42{
+                width:  30px;
+                 height: 30px;
+            }
+            .n{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding-top: 250px;
+                font-family: Roboto,sans-serif;
+                font-weight: 400;
+    
+                
+            }
+            .o{
+                padding-right: 650px;
+                padding-left: 75px;
+            }
+            
+            
+            .p{
+                display: flex;
+                flex-direction: row;
+                padding-top: 10px;
+                align-items: center;
+                gap: 200px;
+            }
+            .i5{
+                 width:  30px;
+                 height: 30px;
+                 gap: 10px;
+                 padding-left: 70px;
+            }
+            .i6{
+            width:  30px;
+            height: 30px;
+            }
+            .i7{
+                 width:  30px;
+                 height: 30px;
+            }
+            .i8{
+                 width:  30px;
+                 height: 30px;
+            }
+            .i81{
+                width:  30px;
+                 height: 30px;
+            }
+            .i82{
+                width:  30px;
+                 height: 30px;
+            }
+
+
+        
+            .main{
+            padding:20px;
+            display:flex;
+            flex-direction: column;
+            gap: 20px;
+            background-color: rgb(24, 19, 19);
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            font-weight: normal;
+            padding-bottom: 100px;
+           }
+           .m{
+            display: flex;
+            flex-direction: row;
+            padding-top: 300px;
+            padding-left: 50px;
+
+           }
+           .m2{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            padding-top: 10px;
+            padding-left: 60px;
+           }
+           .m3{
+            padding-left: 800px;
+           }
+           .qo{
+            display: flex;
+            flex-direction: row;
+            padding-left: 50px;
+            padding-top: 20px;
+           }
+           .q1{
+            padding-left: 800px;
+           }
+          .q2{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            padding-left: 50px;
+          }
+          .ig{
+            border-radius: 50%;
+            border: none;
+          }
+          .c{
+            padding-left: 120px;
+            cursor: pointer;
+          }
+          .d{
+            padding-left: 10px;
+          }
+          .e{
+            padding-left: 10px;
+          }
+          .f{
+            padding-left: 10px;
+          }
+           </style>
+    </head>
+    <body>
+    <div class="main">
+        <div class="a">
+            <div class="a1">
+                <img id="a2" src="data:image/jpeg;base64,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">
+            </div>
+            <div class="b">
+               Wync Music
+            </div>
+            <div class="c">
+                <input type="text" placeholder="Search Songs...." size="30">
+             </div>
+             <div class="d">
+                <img id="a2"    src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Subscriptions">
+             </div>
+             <div class="e">
+                Manage Subscriptions |
+             </div>
+             <div class="f">
+                <img id="a2"     src="https://cdn-icons-png.flaticon.com/128/2321/2321232.png" alt="">
+             </div>
+             <div>
+                Login
+             </div>
+             <div>
+                <img id="a2" src="https://tse1.mm.bing.net/th?id=OIP.rddekGCO3PjhXqtePcIYIQHaE8&pid=Api&rs=1&c=1&qlt=95&w=169&h=112" alt="">
+             </div>
+        </div>
+        <div class="h">
+             <div class="i">
+                All
+            </div>
+            <div>
+               Trending Now
+            </div>
+            <div>
+                Old Songs
+             </div>
+             <div>
+                New Songs
+             </div>
+             <div>
+                Moods & Genre
+             </div>
+             <div>
+                Top Albums
+             </div>
+             <div>
+                Top Artists
+             </div>
+             <div>
+                Top Playlists
+             </div>
+             <div>
+                Podcasts
+             </div>
+            
+        </div>
+
+        <div class="j">
+            <div class="k">
+               New Releases
+           </div>
+           <div>
+              More
+           </div>
+        </div>
+        
+        <div class="l">
+            <div class="i1">
+                <img src= "https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://img-dynamic.wynk.in/unsafe/top/filters:watermark(https://discovery-prod-arsenal.s3.ap-south-1.amazonaws.com/arsenal/library/new_songs_mix_1/var4/v4/new_songs_mix_1.png,0,-0,0,100,100)/https://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_zeemusic/music/1705309681638/i-wanna-see-you-dance--1500.jpg?dynamic=true" alt="">
+                <br> Songs Mix
+           </div>
+           <div class="i2">
+            <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/65a1314c81aff24b115a4150/COLLECTION_3198303174918.png">
+            <br>New Hindi Songs
+           </div>
+           <div class="i3">
+            <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/65a0ec7888b567328eb6cf39/COLLECTION_275466032129486.png">
+                <br>New English Songs
+           </div>
+           <div class="i4">
+            <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_hungama/8902894362139_20231220221437/8902894362139/1703091612001/resources/8902894362139.jpg" >
+                Dunki
+           </div>
+           <div class="i41">
+            <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_hungama/730553306976_20231110140926/730553306976/1699606506335/resources/730553306976.jpg">
+           <br>Walkerworld
+           </div>
+           <div class="i42">
+            <img  src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_believe/20231215072951590/3617381742183/1702623612471/resources/3617381742183.jpg">
+           <br><p>Tum Aaye HO Toh</p>
+           </div>
+
+        </div>
+           <div class="n">
+              <div class="o">
+                 Top Charts
+             </div>
+             <div>
+                 More
+             </div>
+        </div>
+        
+        <div class="p">
+            <div class="i5">
+                <img src= "https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/6593d67667f20324558c8831/COLLECTION_617173059871497.png">
+                <br>Weekly Top 20: English
+           </div>
+           <div class="i6">
+            <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/659e4ac602016e3a41cc0fca/COLLECTION_101361830310807.png">
+            <br>Wynk Top 10
+           </div>
+           <div class="i7">
+            <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/647f2bbe5a17d82429a5f5ff/COLLECTION_35118269000889.png">
+            <br>Romance Top 40
+           </div>
+           <div class="i8">
+            <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/659e4af37e4b3f31da0d24db/COLLECTION_159120526520037.png" >
+            <br>Weekly Top 20
+           </div>
+           <div class="i81">
+            <img  src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/6593e424b50b1a42cc3c39a9/COLLECTION_197650560282451.png">
+           <br>Social Media Top
+           </div>
+           <div class="i82 ">
+            <img  src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/659508026c7b721c2eda96c6/COLLECTION_700449761092524.png">
+            <br>Romance Top 50      
+            </div>
+          
+     </div>
+            
+             <div  class="m">
+                <div class="m1">
+                    Indie Music
+                </div>
+                 <div class="m3">
+                    More
+                 </div>
+             </div>
+            <div class="m2">
+                <div class="i9">
+                    <img  class="img" src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/65a1245f4fbaad3f0d0ec7cc/COLLECTION_29914789132726.png">
+                <br>Latest Indie
+                </div>
+                <div class="i10">
+                    <img class="img" src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/6593e8952e2181643147b2c8/COLLECTION_1028832164993401.png">
+                <br>INDIE English
+                </div>
+                <div class="i10">
+                    <img class="img" src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/65a1247d6a73f23acfae0d24/COLLECTION_264139575508912.png">
+                <br>New-Age Indipop
+                </div>
+                <div class="i10">
+                    <img class="img" src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/655f2cc17f8ea634f8ff686d/COLLECTION_28904713297071.png" >
+                <br>North East Indie
+                </div>
+                <div class="i10">
+                    <img class="img" src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/658c612d88d3b17d882062e1/COLLECTION_218110421265260.png">
+                <br>Beyond Bollywood
+                </div>
+                <div class="i10">
+                    <img class="img" src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/659bb40c66c19a0c4af0c671/COLLECTION_418910401419255.png">
+                <br>Hip Hop Indie                 
+                </div>    
+            </div>  
+               <div class="qo">
+                  <div class="q">
+                    Top Indie Artists
+                  </div>
+                   <div class="q1">
+                    More
+                   </div>
+               </div>
+    
+            <div class="q2">
+                <div>
+                    <img class="ig" src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-zion/zion/1673244784213-Prateek_Kuhad.jpg">
+                <br><br>Prateek Kuhad
+                </div>
+                <div>
+                    <img class="ig" src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/artists/profile/5f5775637c0c585d96ebb976.png">
+                <br><br>The Local Train
+                </div>
+                <div>
+                    <img class="ig" src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-zion/zion/1696453099940-Nikhita_Gandhi.png">
+                <br><br>Nikhita Gandhi
+                </div>
+                <div class>
+                    <img class="ig" src="https://img.wynk.in/unsafe/220x220/http://img.wynk.in/unsafe/filters:no_upscale():strip_exif():format(webp)/http://img.wynk.in/unsafe/240x100/top/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_wyndie/c64ec93b-9bbf-4182-ae34-25ebf99e044b/1704401055258/file-1704401055193-494792840-647C576A-52E2-4E86-8A6D-5F104DD50167.png" >
+                <br><br>Prateek Gandhi
+                </div>
+                <div class=>
+                    <img class="ig" src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/artists/profile/5ed7758f7c0c58409e2c4317.png">
+                <br><br>Ritviz
+                </div>
+                <div>
+                    <img class="ig" src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/artists/profile/5f58bf247c0c585d96ebbd0d.png">
+                <br><br>When Chai Met Toast               
+                </div>      
+            </div>
+
+
+
+
+
+     </div>
+           
+       
+    </body>
+</html>
